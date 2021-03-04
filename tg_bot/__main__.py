@@ -18,42 +18,36 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Hii {},Kaisa Hai Lodu. Apun Ka Naam - {}! Agar tereko issues aa rha hai toh ye press kar - /help... 
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+Mai ek atanki hu jo groups ko sambhalta hai! (SAMAJH RHE HO?) MERA OWNER YE [LODU LALIT](tg://user?id={} HAI).
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+AGAR APUN KE ANDAR KOI BHI UPDATE ATA HAI TOH SAB IDHAR MILEGA - @BOTS_KI_DUNIYA & KOI ISSUES AA RHI TOH @MR_NINJAS_BOT KO BOLDE.
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
 
-For more commands click /help...
+AGAR TERE GAAND KO ITNE SE SHANTI NHI MILI TOH PRESS /help...
 
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
+**APNE DIMAAG ME YE BAAY GHUSEDH LE KI IS ATANKI BOT KA KOI VI COMPETITIVE PAIDA NHI HUA HAI**
 
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hello! MERA NAAM *{}*.
 
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
+*Main* COMMANDS:
+ - /start: IS SE BOT CHALU HOGA...
+ - /help: KOI TAKLIF HO TOH PRESS KARO....
+ - /donate: IS GARIB KO DEDE KUCH😁😁!
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
-   - in a group:
+   - in PM: APNE SETTINGS JAAN NE KE LIYE....
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Aur bidu, apun ko yeh sun ke ki tujhe donate karna hai bohot khushi hui hai!
+Mera Creator Bohot Garib Hai Sala. Donate karo [mere creator](t.me/SonOfLars) ko taaki wo aur bots banasake😔\n\nToh mai do tarike se donate le sakta hu.\n1- Paytm : +91 8877208571.\n2- UPI : 8877208571.wallet@paytm \n agar tu paisa deta hai toh ek ss dedena bas @mr_ninjas_bot pe taaki mereko motivation mil sake😢"""
 
 IMPORTED = {}
 MIGRATEABLE = []
